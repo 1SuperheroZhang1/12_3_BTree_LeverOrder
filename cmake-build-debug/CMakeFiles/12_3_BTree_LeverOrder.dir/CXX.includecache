@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CLionProjects/middle/12.Tree/12.3_BTree_LeverOrder/function.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/CLionProjects/middle/12.Tree/12.3_BTree_LeverOrder/main.cpp
+function.h
+D:/CLionProjects/middle/12.Tree/12.3_BTree_LeverOrder/function.h
+
